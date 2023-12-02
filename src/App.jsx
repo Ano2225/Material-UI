@@ -22,12 +22,13 @@ const App = () => {
     
   return (
     <>
+    <h1>hello</h1>
 
     <CssBaseline />
     <AppBar  position="relative">
     <Toolbar>
   
-        <AccessAlarmOutlined className={classes.icon}/>
+        <AccessAlarmOutlined className={classes.icon} />
 
         <Typography variant="h6" >
             Photo Album
